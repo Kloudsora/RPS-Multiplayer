@@ -1,0 +1,83 @@
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  /* border: 1px solid red; */
+  /* justify-content: center; */
+  background-color: #F5F5F5;
+}
+
+img {
+  max-width: 200px;
+  min-width: 100px;
+  width: 20%;
+}
+
+div {
+  /* border: 1px solid green; */
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+/*  */
+
+input {
+  text-align: center;
+}
+
+/*  */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 1rem; */
+  /* padding: 0.5rem; */
+}
+
+.container1 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gameBox {
+  /* margin: auto; */
+  border-radius: 50px 20px;
+}
+
+#playerA,
+#playerB,
+#whoseTurn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+}
+
+.paSpacing {
+  margin: 10px;
+}
+
+.gameCho {
+  background-color: #3A606E;
+  border-radius: 25px;
+}
+
+.gameOps {
+  background-color: #E1B07E;
+  border-radius: 50px 20px;
+}
+
+.title {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 2em;
+}
+
+.reset-button {
+  min-width: 80%;
+  padding: auto;
+  background-color: #E1B07E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
