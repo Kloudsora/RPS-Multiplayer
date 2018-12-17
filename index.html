@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  -->
+
+<head>
+  <meta charset="UTF-8">
+  <!--  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--  -->
+  <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+  <!--  -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+  <!--  -->
+  <title>Ro-Sham-Bo</title>
+  <!--  -->
+</head>
+<!--  -->
+
+<body>
+  <div class="main">
+    <!--  -->
+    <div class="title">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+    <!--  -->
+    <div class="container1">
+      <!--  -->
+      <div id="playerA" class="gameBox">
+        <img id="p1Image" src="./assets/image/anon.png" alt="Player Unknown">
+        <h3 class="paSpacing" id="userHNameA"></h3>
+        <input type="text" name="playerName" id="userNameA" placeholder="Enter Player 1 name">
+        <div class="gameCho">
+          <div id="pRock" class="gameOps">Rock</div>
+          <div id="pPaper" class="gameOps">Paper</div>
+          <div id="pScissors" class="gameOps">Scissors</div>
+        </div>
+      </div>
+      <!--  -->
+      <div id="whoseTurn" class="gameBox">
+        <img src="./assets/image/dancing_banana.gif_c200" alt="dancing banana">
+      </div>
+      <!--  -->
+      <div id="playerB" class="gameBox">
+        <img id="p2Image" src="./assets/image/anon.png" alt="Player Unknown">
+        <h3 class="paSpacing" id="userHNameB"></h3>
+        <input type="text" name="playerName" id="userNameB" placeholder="Enter Player 2 name">
+        <div class="gameCho">
+          <div id="oRock" class="gameOps">Rock</div>
+          <div id="oPaper" class="gameOps">Paper</div>
+          <div id="oScissors" class="gameOps">Scissors</div>
+        </div>
+      </div>
+      <!--  -->
+      <div id="resetB" class="reset-button">Reset Game</div>
+    </div>
+    <!--  -->
+  </div>
+  <!--  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <!--  -->
+  <script src="./assets/javascript/config.js"></script>
+  <script src="./assets/javascript/script.js"></script>
+</body>
+<!--  -->
+
+</html>
